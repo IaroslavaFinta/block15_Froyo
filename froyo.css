@@ -1,0 +1,47 @@
+.logo{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.navigation {
+    color: black;
+    font-size: x-large;
+    float: right;
+    font-style: inherit;
+    text-align: center;
+}
+
+.navitem, .navitem_active{
+    padding-right: 30px;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.backimage {
+    height:90vh;
+    width: auto;
+    background: url('https://static3.depositphotos.com/1000504/109/i/450/depositphotos_1091607-Pink-ice-cream.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.main_page {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 800px) {
+    .backimage {
+        background: url('https://images.unsplash.com/photo-1603346133929-24265debae88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    }
+}

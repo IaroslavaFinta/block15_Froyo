@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="froyo.css">
+    <link rel="about_page" href="froyo_about.html">
+    <link rel="menu_page" href="froyo_menu.html">
+    <link rel="contact_page" href="froyo_contact.html">
+    <style>
+        .main_page {
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:black;
+            font-size: x-large;
+        }
+        .options_list{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        .options_list_item{
+            display: inline-block;
+            list-style: none;
+            padding: 30px;
+            }
+        img{
+            height: 60px;
+            width: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="backimage">
+    <main>
+        <section class = "top page">
+            <div class="logo">
+                <a>Froyo Shop</a>
+            </div>
+            <div class="navigation">
+                <a class="navitem" href="./froyo.html">HOME</a>
+                <a class="navitem" href="./froyo_about.html">ABOUT</a>
+                <a class="navitem_active" href="./froyo_menu.html">MENU</a>
+                <a class="navitem" href="./froyo_contact.html">CONTACT</a>
+            </div>
+        </section>
+        <section class = "main_page">
+            <div class="title">
+                <h1>Our Menu</h1>
+            </div>
+            <div class="options">
+                <ul class="options_list">
+                    <li class="options_list_item">
+                        Strawberry
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/33/72/76/1000_F_233727625_U4JaFANMTfddNsAwG3ymoy2wLNQwJQBe.jpg"
+                        alt="">
+                    </li>
+                    <li class="options_list_item">
+                        Chocolate
+                        <img src="data:image/jpeg;base64,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" 
+                        alt="">
+                    </li>
+                    <li class="options_list_item">
+                        Cookies and Cream
+                        <img src="https://richanddelish.com/wp-content/uploads/2022/05/cookies-and-cream-ice-cream-688x1024.jpg"
+                        alt="">
+                    </li>
+                    <li class="options_list_item">
+                        Vanilla
+                        <img src="https://media.istockphoto.com/id/185247970/photo/vanilla-ice-cream-in-sundae-cup.jpg?s=612x612&w=0&k=20&c=jGhLeoevcBw89tHqP1H3_lmD7kjdXGpO8NwvzMwIYNg="
+                        alt="">
+                    </li>
+                    <li class="options_list_item">
+                        Pistachio
+                        <img src="https://c8.alamy.com/comp/2AGYC3X/pistachio-ice-cream-in-a-glass-vase-2AGYC3X.jpg"
+                        alt="">
+                    </li>
+                    <li class="options_list_item">
+                        Mango
+                        <img src="https://thumbs.dreamstime.com/b/mango-sticky-rice-ice-cream-clear-glass-cup-decorated-pieces-sugar-form-s-snowflakes-shot-white-background-158081643.jpg"
+                        alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</html>
