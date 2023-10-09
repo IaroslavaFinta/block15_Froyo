@@ -27,7 +27,6 @@ function countOrders(orderArray) {
 }
 
 //Printing the orders
-console.log(`Your order is: ${countOrders(orderArray)}`);
+console.log("Your order is: ", countOrders(orderArray));
 
-//strawberry, vanilla, chocolate, vanilla, cream
 
